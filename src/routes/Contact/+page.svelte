@@ -1,3 +1,9 @@
+<script>
+	import github from '../../img/github (2).png';
+	import tg from '../../img/tg.png';
+	import email from '../../img/gmail.png';
+</script>
+
 <div class="container">
 	<div class="footer">
 		<hr />
@@ -5,19 +11,19 @@
 		<ul>
 			<li>
 				<a id="tg-link" href="https://t.me/arhitc"
-					><img alt="" src="/src/img/tg.png" />
+					><img alt="" src={tg} />
 					<p id="tg">tg-link</p></a
 				>
 			</li>
 			<li>
 				<a id="gh-link" href="https://github.com/group06854/portfolio-web.github.io"
-					><img alt="" src="/src/img/github (2).png" />
+					><img alt="" src={github} />
 					<p id="gh">gh-link</p></a
 				>
 			</li>
 			<li>
 				<a id="email" href="mailto:leo2004201441@gmail.com"
-					><img alt="" src="/src/img/gmail.png" />
+					><img alt="" src={email} />
 					<p>email</p></a
 				>
 			</li>

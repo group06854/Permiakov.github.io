@@ -1,6 +1,9 @@
 <script lang="ts">
 	import Heade from '../__layout.svelte';
 	import Contact from '../Contact/+page.svelte';
+	import Insimg from '../../img/insects.jpg';
+	import Herosimg from '../../img/Hero.jpg';
+	import Portimg from '../../img/portfolio.png';
 </script>
 
 <main>
@@ -20,7 +23,7 @@
 				technologies and contribute to cutting-edge projects, using my passion for technology and
 				strategic mindset to influence computer science and more.
 			</p>
-			<img id="portfolio" alt="" src="/src/img/portfolio.png" />
+			<img id="portfolio" alt="" src={Portimg} />
 		</div>
 		<div class="Portfolio-information">
 			<h3 id="head">Projects</h3>
@@ -28,7 +31,7 @@
 				<div class="window">
 					<li>
 						<a href="https://github.com/group06854/projectforlab/blob/main/Mysterious%20Legends"
-							><img alt="" src="/src/img/Hero.jpg" /></a
+							><img alt="" src={Herosimg} /></a
 						>
 						<p>
 							<a
@@ -50,7 +53,7 @@
 						<a
 							id="github"
 							href="https://github.com/group06854/projectforlab/blob/main/Insect%20Battle"
-							><img alt="" src="/src/img/insects.jpg" /></a
+							><img alt="" src={Insimg} /></a
 						>
 						<p>
 							<a
