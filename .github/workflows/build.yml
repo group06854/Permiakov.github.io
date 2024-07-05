@@ -68,8 +68,8 @@ jobs:
 
     environment:
       name: github-pages
-      url: https://polina193535.github.io/
-
+      url: https://Permiakov.github.io/
+      
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
