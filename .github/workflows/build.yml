@@ -68,7 +68,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://polina193535.github.io/
 
     runs-on: ubuntu-latest
     steps:
