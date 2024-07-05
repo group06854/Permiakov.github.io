@@ -1,12 +1,3 @@
-<script lang="ts">
-	const changeColor = (event: MouseEvent) => {
-		const inf = document.getElementById('Homework');
-		if (inf) {
-			inf.style.backgroundColor = 'grey';
-		}
-	};
-</script>
-
 <header class="container">
 	<span class="logo">Lev Permiakov</span>
 	<nav>

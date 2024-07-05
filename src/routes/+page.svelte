@@ -1,8 +1,5 @@
 <script lang="ts">
-	import Comic from './Comic/+page.svelte';
-	import Contact from './Contact/+page.svelte';
 	import Content from './Content/+page.svelte';
-	import Header from './Header/+page.svelte';
 </script>
 
 <Content />

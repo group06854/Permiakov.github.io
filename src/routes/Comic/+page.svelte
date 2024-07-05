@@ -30,26 +30,15 @@
 		title: string;
 		day: string;
 	}
-	interface comica {
-		title: string;
-		img: string;
-		alt: string;
-		data: string;
-		ago: string;
-	}
 
-	const changeColor = (event: MouseEvent) => {
-		const inf = document.getElementById('Homework');
-		if (inf) {
-			inf.style.backgroundColor = 'grey';
-		}
-	};
 	async function findnum(url: string): Promise<string | null | undefined> {
 		try {
 			const response = await fetch(url);
 			const text = await response.text();
 			return text;
-		} catch {}
+		} catch {
+			return null;
+		}
 	}
 
 	let info: comic | null = null;
