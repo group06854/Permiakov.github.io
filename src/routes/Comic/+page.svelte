@@ -1,21 +1,4 @@
 <script lang="ts">
-	/*async function scrapeContent(url: string){
-    const response = await fetch(url)
-    const content: comic = await response.json();
-        let year : number = Number(content.year);
-        let month : number = Number(content.month);
-        let day : number = Number(content.day);
-        const time : Date = new Date(year, month, day);
-        
-        if (typeof document !==  'undefined') {
-        export const title : string = content.safe_title;
-        export const img = document.createElement('img');
-        export const imglink : string = content.img;
-        export const imgalt : string = content.alt;
-        export const data : string = time.toLocaleDateString();
-        export const ago : string = formatDistance(time, new Date());
-        }
-}*/
 	import { formatDistance } from 'date-fns';
 	interface comic {
 		month: string;
