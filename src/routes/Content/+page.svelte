@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Heade from '../__layout.svelte';
 	import Contact from '../Contact/+page.svelte';
-	import Insimg from './../../img/insects.jpg';
-	import Herosimg from './../../img/Hero.jpg';
-	import Portimg from './../../img/portfolio.png';
+	import Insimg from '../../img/insects.jpg';
+	import Herosimg from '../../img/Hero.jpg';
+	import Portimg from '../../img/portfolio.png';
 </script>
 
 <main>
