@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Content from './Content/+page.svelte';
+	import Content from './content/+page.svelte';
 </script>
 
 <Content />
