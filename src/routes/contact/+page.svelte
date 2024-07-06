@@ -1,7 +1,7 @@
 <script>
-	import github from '../../img/github (2).png';
-	import tg from '../../img/tg.png';
-	import email from '../../img/gmail.png';
+	import github from './../../img/github (2).png';
+	import tg from './../../img/tg.png';
+	import email from './../../img/gmail.png';
 	import Heade from './../__layout.svelte';
 </script>
 
