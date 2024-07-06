@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Heade from '../__layout.svelte';
-	import Contact from '../contact/+page.svelte';
+	import Contact from '../Contact/+page.svelte';
 	import Insimg from './../../img/insects.jpg';
 	import Herosimg from './../../img/Hero.jpg';
 	import Portimg from './../../img/portfolio.png';
@@ -30,15 +30,11 @@
 			<ul>
 				<div class="window">
 					<li>
-						<a href="https://github.com/group06854/projectforlab/blob/main/Mysterious%20Legends"
-							><img alt="" src={Herosimg} /></a
-						>
+							<img alt="" src={Herosimg} />
 						<p>
-							<a
-								id="github"
+							<a id="github"
 								href="https://github.com/group06854/projectforlab/blob/main/Mysterious%20Legends"
-								>Mysterious Legends</a
-							>
+								>Mysterious Legends</a>
 						</p>
 						<p>
 							In the exciting world of "Mysterious Legends", where magic and technology are closely
@@ -50,11 +46,9 @@
 				</div>
 				<div class="window">
 					<li>
-						<a
-							id="github"
+						<a id="github"
 							href="https://github.com/group06854/projectforlab/blob/main/Insect%20Battle"
-							><img alt="" src={Insimg} /></a
-						>
+							><img alt="" src={Insimg} /></a>
 						<p>
 							<a
 								id="github"
