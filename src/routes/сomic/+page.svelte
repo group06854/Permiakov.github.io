@@ -13,7 +13,7 @@
 		title: string;
 		day: string;
 	}
-
+/**/
 	async function findnum(url: string): Promise<string | null | undefined> {
 		try {
 			const response = await fetch(url);

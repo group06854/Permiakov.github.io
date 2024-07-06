@@ -5,7 +5,7 @@
 			<li><a id="nav" href="#head_st">About Me</a></li>
 			<li><a id="nav" href="#head">Portfolio</a></li>
 			<li><a id="nav" href="#head_end">Contact Me</a></li>
-			<li><a id="nav" href="/.\Comic">Homework</a></li>
+			<li><a id="nav" href="/сomic">Homework</a></li>
 		</ul>
 	</nav>
 </header>
