@@ -2,8 +2,9 @@
 	import github from '../../img/github (2).png';
 	import tg from '../../img/tg.png';
 	import email from '../../img/gmail.png';
+	import Heade from './../__layout.svelte';
 </script>
-
+<Heade />
 <div class="container">
 	<div class="footer">
 		<hr />
@@ -32,6 +33,7 @@
 </div>
 
 <style>
+	
 	.container {
 		margin-top: 1px;
 		width: 98%;
