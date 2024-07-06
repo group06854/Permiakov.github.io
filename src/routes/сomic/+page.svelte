@@ -1,4 +1,5 @@
 <script lang="ts">
+	/* time to drink*/
 	import { formatDistance } from 'date-fns';
 	import Heade from './../__layout.svelte';
 	interface comic {
