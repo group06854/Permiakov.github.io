@@ -48,6 +48,7 @@
 		}
 	);
 </script>
+
 <Heade />
 <main>
 	<!-- ChildComponent.svelte -->

@@ -21,7 +21,7 @@
 				strategic mindset to influence computer science and more.
 			</p>
 			<div>
-			<img id="portfolio" alt="" src={Portimg} />
+				<img id="portfolio" alt="" src={Portimg} />
 			</div>
 		</div>
 	</div>
@@ -57,8 +57,7 @@
 		font-weight: 800;
 		margin-bottom: 40px;
 	}
-	
-	
+
 	img {
 		max-width: 100%;
 	}
@@ -80,6 +79,4 @@
 		top: 135px;
 		right: 5%;
 	}
-	
-	
 </style>

@@ -1,5 +1,3 @@
-
-
 <header class="container">
 	<span class="logo">Lev Permiakov</span>
 	<nav>
@@ -8,12 +6,11 @@
 			<li><a id="nav" href="/project">Portfolio</a></li>
 			<li><a id="nav" href="/contact">Contact Me</a></li>
 			<li><a id="nav" href="/сomic">Homework</a></li>
-		</ul>   
+		</ul>
 	</nav>
 </header>
 
 <style>
-	
 	a {
 		text-decoration: none;
 		color: aliceblue;

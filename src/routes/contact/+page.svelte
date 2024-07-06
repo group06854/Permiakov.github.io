@@ -4,6 +4,7 @@
 	import email from '../../img/gmail.png';
 	import Heade from './../__layout.svelte';
 </script>
+
 <Heade />
 <div class="container">
 	<div class="footer">
@@ -33,7 +34,6 @@
 </div>
 
 <style>
-	
 	.container {
 		margin-top: 1px;
 		width: 98%;
