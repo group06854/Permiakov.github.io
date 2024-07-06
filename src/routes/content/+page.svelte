@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Heade from '../__layout.svelte';
 	import Contact from '../contact/+page.svelte';
-	import Insimg from './../../img/insects.jpg';
-	import Herosimg from './../../img/Hero.jpg';
-	import Portimg from './../../img/portfolio.png';
+	import Insimg from '../../img/insects.jpg';
+	import Herosimg from '../../img/Hero.jpg';
+	import Portimg from '../../img/portfolio.png';
 </script>
 
 <main>
@@ -23,7 +23,9 @@
 				technologies and contribute to cutting-edge projects, using my passion for technology and
 				strategic mindset to influence computer science and more.
 			</p>
+			<div>
 			<img id="portfolio" alt="" src={Portimg} />
+			</div>
 		</div>
 		<div class="Portfolio-information">
 			<h3 id="head">Projects</h3>
