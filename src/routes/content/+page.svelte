@@ -30,11 +30,13 @@
 			<ul>
 				<div class="window">
 					<li>
-							<img alt="" src={Herosimg} />
+						<img alt="" src={Herosimg} />
 						<p>
-							<a id="github"
+							<a
+								id="github"
 								href="https://github.com/group06854/projectforlab/blob/main/Mysterious%20Legends"
-								>Mysterious Legends</a>
+								>Mysterious Legends</a
+							>
 						</p>
 						<p>
 							In the exciting world of "Mysterious Legends", where magic and technology are closely
@@ -46,9 +48,11 @@
 				</div>
 				<div class="window">
 					<li>
-						<a id="github"
+						<a
+							id="github"
 							href="https://github.com/group06854/projectforlab/blob/main/Insect%20Battle"
-							><img alt="" src={Insimg} /></a>
+							><img alt="" src={Insimg} /></a
+						>
 						<p>
 							<a
 								id="github"
